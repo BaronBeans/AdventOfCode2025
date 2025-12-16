@@ -1,0 +1,7 @@
+export const part1 = () => {
+    console.log("complete part 1");
+}
+
+export const part2 = () => {
+    console.log("complete part 2");
+}
