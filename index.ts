@@ -26,7 +26,6 @@ rl.question("Enter day number: ", async (answer) => {
         await runDay(Number(answer));
     } else {
         setupDay(Number(answer));
-        await runDay(Number(answer));
     }
 });
 
