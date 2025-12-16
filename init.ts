@@ -19,6 +19,6 @@ export const setupDay = (day: number) => {
         fs.mkdirSync(dayFolder);
     }
     if (!fs.existsSync(dayFile)) {
-        fs.writeFileSync(dayFile, fs.readFileSync(`./template.txt`, 'utf8'));
+        fs.writeFileSync(dayFile, fs.readFileSync(`./template.txt`, 'utf8').replaceAll("{day}", day.toString()));
     }
 };

@@ -1,7 +1,11 @@
-export const part1 = () => {
+import { getDayInput } from "../../utils/input";
+
+export const part1 = async () => {
+    const input = await getDayInput({day});
     console.log("complete part 1");
 }
 
-export const part2 = () => {
+export const part2 = async () => {
+    const input = await getDayInput({day});
     console.log("complete part 2");
 }
