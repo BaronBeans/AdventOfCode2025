@@ -17,7 +17,6 @@ rl.question("Enter day number: ", async (answer) => {
 
         } else {
             const day = Number(answer);
-            console.log(`Day: ${day}`);
         }
     }
     rl.close();
